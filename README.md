@@ -2,7 +2,7 @@
 
 <img src="static/logo.png" align="right" width="320" alt="DPoW"/></p>
 
-[![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.nanocenter.org)
+[![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/TkDK4wEXJk)
 
 Welcome to the Distributed Proof of Work (DPoW) system. The DPoW system allows any user to support ApolloNano by computing the required proof of work for transactions.
 
