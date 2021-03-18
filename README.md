@@ -12,13 +12,11 @@ DPoW has helped reduce operating costs of projects, such as faucets, tipping bot
 
 In the [Nano](https://nano.org) protocol, every [block](https://medium.com/nano-education/nano-how-2-blocks-and-lattices-c0ccd417bd5a) must contain a small [proof of work](https://medium.com/nano-education/nano-how-4-proof-of-work-474bf20fc7d) to be confirmed by the network. While a desktop with a modern graphics card can easily and quickly compute this proof, the process can require significant resources from a server and mobile devices. Services often need to scale quickly when there is an uptick in usage, and on-demand scalable solutions based on GPUs are not available given the time-to-deploy requirements.
 
-DPoW provides a **hub between services and clients who are happy to provide their resources**, in return for small payouts. Consequently, services save significantly on operating costs to operate on the Nano network.
+DPoW provides a **hub between services and clients who are happy to provide their resources**, in return for small payouts. Consequently, ApolloNano saves significantly on operating costs to operate on the Nano network.
 
 ## How does it work
 
-<img src="static/flow.png" align="center" width="500" alt="DPoW"/></p>
-
-The image above outlines the flow of messages within the system. Services request a proof of work for a specific block (hash) from the server. The server broadcasts a request using the low-latency MQTT protocol. The first worker (client) to return valid work is rewarded, and immediately a message is sent so other clients know they can cancel the ongoing computation. Meanwhile, the work is returned to the service.
+ApolloNano request a proof of work for a specific block (hash). The server broadcasts a request using the low-latency MQTT protocol. The first worker (client) to return valid work is rewarded, and immediately a message is sent so other clients know they can cancel the ongoing computation. Meanwhile, the work is returned to the service.
 
 ## Using DPoW
 
@@ -29,3 +27,7 @@ You can read more about the DPoW [message specification](docs/specification.md).
 ### Running a work client
 
 Read more on the [client documentation](client/README.md) page.
+
+### Credit
+
+The orginal DPoW project ApolloNano adapted for its services can be found [here](https://github.com/guilhermelawless/nano-dpow)
