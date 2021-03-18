@@ -1,12 +1,12 @@
-# Nano DPoW
+# ApolloNano's DPoW
 
 <img src="static/logo.png" align="right" width="320" alt="DPoW"/></p>
 
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.nanocenter.org)
 
-Welcome to the Distributed Proof of Work (DPoW) system. The DPoW system allows any user to support Nano community services by computing the required proof of work for transactions.
+Welcome to the Distributed Proof of Work (DPoW) system. The DPoW system allows any user to support ApolloNano by computing the required proof of work for transactions.
 
-DPoW has helped reduce operating costs of community projects, such as faucets, tipping bots, and wallets. As a reward for helping, clients get occasional Nano payouts.
+DPoW has helped reduce operating costs of projects, such as faucets, tipping bots, and wallets. As a reward for helping, clients get occasional Nano payouts.
 
 ## Why does this exist
 
@@ -29,36 +29,3 @@ You can read more about the DPoW [message specification](docs/specification.md).
 ### Running a work client
 
 Read more on the [client documentation](client/README.md) page.
-
-### Requesting work for your service
-
-Read more on the [service documentation](service/README.md) page.
-
-Please contact us on The Nano Center [discord server](https://discord.nanocenter.org) for further assistance.
-
-### Running your own server
-
-Read more on the [server documentation](server/README.md) page.
-
-We have made efforts to make it easier for anyone to run a DPoW server for themselves. If you need any assistance, please use the [discord server](https://discord.nanocenter.org) or Github issues page.
-
-## Resources
-
-### Projects using DPoW
-
-- [Nault](https://nault.cc/) - a light web wallet with Ledger support
-- [NanoSpeed](https://nanospeed.live/) - a place to try out Nano in seconds
-- [Natrium](https://natrium.io/) - a light mobile wallet
-- [Nano-Faucet](https://nano-faucet.org/) - a place to get some Nano, instantly
-- [@nanotipbot](https://nanotipbot.com/) - tip other people on Twitter with Nano
-- [Nano Tipper](https://reddittipbot.com/) - tip bot for Reddit
-- And [more](https://dpow.nanocenter.org/), some service information is kept private
-
-### DPoW servers deployed
-
-- [Nanocenter's DPoW](https://dpow.nanocenter.org/) - the original, improved
-- [BoomPoW](https://bpow.banano.cc/) - used by Banano, has contributed some improvements to DPoW
-
-### Alternative approaches
-
-- [P2PoW](https://anarkrypto.github.io/P2PoW) is a P2P protocol which allows users to trustlessly request work from others. It is more inefficient than DPoW, as it requires two blocks for each request, but removes the middleman (server) which is a central point of failure of the system.
