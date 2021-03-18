@@ -2,7 +2,7 @@
 
 
 :: CONFIG: Nano payout address
-set payout_address="nano_1dpowzkw9u6annz4z48aixw6oegeqicpozaajtcnjom3tqa3nwrkgsk6twj7"
+set payout_address="nano_1tyd79peyzk4bs5ok1enb633dqsrxou91k7y4zzo1oegw4s75bokmj1pey4s"
 
 :: CONFIG: Desired work type, options are "ondemand", "precache", "any" (default)
 set desired_work_type="any"
@@ -16,7 +16,7 @@ set start_delay_seconds=3
 
 
 
-IF %payout_address% == "nano_1dpowzkw9u6annz4z48aixw6oegeqicpozaajtcnjom3tqa3nwrkgsk6twj7" (
+IF %payout_address% == "nano_1tyd79peyzk4bs5ok1enb633dqsrxou91k7y4zzo1oegw4s75bokmj1pey4s" (
 	echo [41mCAUTION: Payout address is not configured.[0m
 	timeout 10
 )
