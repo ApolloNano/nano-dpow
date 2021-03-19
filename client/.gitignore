@@ -1,4 +1,4 @@
 logs/*.txt*
 release/config.txt
-release/logs/*.txt*
-release/build/*.*
+release/logs/
+release/build/
